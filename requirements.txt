@@ -1,0 +1,25 @@
+# Data manipulation and analysis
+pandas>=2.2.0
+numpy>=1.26.0,<3.0.0
+
+# Machine learning (pinned to match pickle files)
+scikit-learn==1.7.2
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Explainability
+shap>=0.46.0
+
+# Scientific computing
+scipy>=1.13.0
+
+# Excel file support
+openpyxl>=3.1.0
+
+# Jupyter support
+ipykernel>=6.29.0
+jupyter>=1.1.0
+notebook>=7.0.0
+jupyterlab>=4.0.0

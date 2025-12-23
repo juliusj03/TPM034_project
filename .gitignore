@@ -1,0 +1,53 @@
+# Virtual environments
+venv/
+.venv/
+.venv-*/
+env/
+ENV/
+.archive/
+.sub-agents/
+
+uv.lock
+pyproject.toml
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large files)
+*.xlsx
+*.csv
+*.parquet
+
+# Model artifacts (large files)
+*.pickle
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Archive directory (deleted/old files)
+.archive/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
