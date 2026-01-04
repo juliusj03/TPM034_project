@@ -27,7 +27,6 @@ __pycache__/
 *.parquet
 
 # Model artifacts (large files)
-*.pickle
 *.pkl
 *.joblib
 *.h5
